@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+    
+    --color-PrimaryLight: #E0FF79;
+    --color-TextColorLightMode: #313131;
+    --color-SoftPrimary: #F2FFC8;
+
+    --color-BadgeColor1: #FFC6C6;
+    --color-BadgeColor2: #FFE7C6;
+    --color-BadgeColor3: #C6FFF9;
+    --color-BadgeColor4: #C6D8FF;
+    --color-BadgeColor5: #FFC6F2;
+    --color-BadgeColor6: #E4C6FF;
+
+    --color-TodoKanbanHeader: #F2C8FF;
+    --color-TodoKanbanHeaderCount: #EE8EFF;
+
+    --color-InProgressHeader: #C8C9FF;
+    --color-InProgressHeaderCount: #998EFF;
+
+    --color-InReviewKanbanHeader: #C8F7FF;
+    --color-InReviewHeaderCount: #8EFFF2;
+
+    --color-CompleteKanbanHeader: #CCFFC8;
+    --color-CompleteKanbanHeaderCount: #AFFF8E;
+
+}
