@@ -1,7 +1,11 @@
 @import "tailwindcss";
 
 @theme {
-    
+
+    --color-BackgroundLight: #F3F3F3;
+    --color-CardAndSidebar: #F8F8F8;
+    --color-LightStroke: #D1D1D1;
+
     --color-PrimaryLight: #E0FF79;
     --color-TextColorLightMode: #313131;
     --color-SoftPrimary: #F2FFC8;
