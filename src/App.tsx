@@ -6,7 +6,7 @@ function App() {
     <div className="w-screen h-screen bg-BackgroundLight flex">
       
 {/* Sidebar Container */}
-        <div className="w-[50vw] md:w-[40vw] lg:w-[15vw] h-full border border-r-LightStroke bg-CardAndSidebar">
+        <div className="w-full lg:w-[20vw] h-full border border-r-LightStroke bg-CardAndSidebar">
           
         </div>
 
@@ -15,7 +15,7 @@ function App() {
         <div className="w-full h-full">
 
         {/* Header */}
-          <div className="w-full flex items-center">
+          <div className="w-full h-[8vh] lg:h-[10vh] bg-CardAndSidebar border-b border-b-LightStroke flex items-center">
             
           </div>
 
