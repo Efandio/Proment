@@ -1,3 +1,4 @@
+import DashboardHeader from "./components/DashboardHeader"
 
 
 function App() {
@@ -15,8 +16,8 @@ function App() {
         <div className="w-full h-full">
 
         {/* Header */}
-          <div className="w-full h-[8vh] lg:h-[10vh] bg-CardAndSidebar border-b border-b-LightStroke flex items-center">
-            
+          <div className="w-full h-[8vh] lg:h-[10vh] px-10 bg-CardAndSidebar border-b border-b-LightStroke flex items-center">
+            <DashboardHeader />
           </div>
 
         {/* Content */}

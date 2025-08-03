@@ -6,7 +6,7 @@ export interface ButtonInterface {
 };
 
 export type ButtonType = {
-    label: string;
+    children: React.ReactNode;
     buttonType: "submit" | "button" | "reset" ;
     size: "small" | "medium" | "large";
     variant: "primary" | "soft-primary";
@@ -14,10 +14,10 @@ export type ButtonType = {
 
 type ButtonProps = ButtonType & ButtonInterface
 
-const MyButton: React.FC<ButtonProps> = ({ label, buttonType, onClick }) => {
+const MyButton: React.FC<ButtonProps> = ({ children, buttonType, onClick }) => {
     return (
-        <button type={buttonType} onClick={onClick}>
-            {label}
+        <button type={buttonType} onClick={onClick} className={``}>
+            {children}
         </button>
     )
 };
