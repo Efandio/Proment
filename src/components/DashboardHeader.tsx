@@ -48,7 +48,7 @@ const DashboardHeader = () => {
                 </span>
 
                     {/* NewTask Button */}
-                <MyButton buttonType={"button"} size={"small"} variant={"primary"}>+New Task</MyButton>
+                <MyButton buttonType={"button"} size={"medium"} variant={"primary"}>+New Task</MyButton>
             </div>
 
         </div>
